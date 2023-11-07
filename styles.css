@@ -1,0 +1,38 @@
+body{
+    margin: 20px;
+    font-family: Arial;
+    background: lightpink;
+}
+.main__title{
+    max-width: 1200px;
+    text-align: left;
+    transition: 0.5s;
+    margin: 20px auto;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+.main__title:hover{
+    color: blueviolet;
+}
+.grid__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.grid__paragraph{
+    color: purple;
+}
+.hairdresser__photos{
+    width: 100%;
+    height: 70%;
+    border: 4px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    justify-items: center;
+}
+.hairdresser__photos:hover{
+transform: scale(1.3);
+}
